@@ -1,0 +1,234 @@
+body {
+/*	background-color: #f5f8fa;
+	background-color: #304e67*/
+    background-attachment: fixed;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/a8/a5/71/a8a5710aa99558af4102b61b2ff088f3.jpg);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.95);
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    /*font-family: 'Bangers', cursive;*/
+    /*background-size: cover;*/
+
+
+
+}
+
+#welcomeNav {
+	background-color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#navList {
+	background-color: #283e4a;
+	padding-left: 380px;
+	margin-bottom: 10px;
+	/*padding-right: 461px;*/
+/*	padding-top: 5px;
+	padding-bottom: 5px;*/
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #c4c4c4;
+	color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#homePillText, #dailyPillText, #profilePillText, #createPillText {
+	color: #c7d1d8;
+}
+
+
+#homePill, #dailyPill, #profilePill {
+	margin-right: 30px;
+	color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#createPill {
+	margin-left: 620px;
+	font-family: 'Bangers', cursive;
+}
+
+/*#homePillText, #dailyPillText, #profilePillText, #createPillText {
+	color: white;*/
+}
+
+#mainContainer {
+	width: 1638px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+#profilePicDiv {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profileImage {
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	margin-bottom: 3px;	
+	float: left;
+}
+
+#profileName {
+	text-align: right;
+	line-height: 20px;
+	font-size: 18px;
+	color: black;
+	font-weight: 700;
+}
+
+#profileUsername {
+	/*position: relative;*/
+	line-height: 14px;
+	font-size: 12px;
+	color: gray;
+	font-weight: 300;
+}
+
+#profileNames {
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+
+}
+
+#profilePanel {
+	margin-bottom: 0px;
+	height: 103px;
+	font-family: 'Bangers', cursive;
+/*	border-style: solid;
+	border-width: 1.5px;
+	border-color: #337ab7;*/
+	border-bottom-width: 0px;
+}
+
+#profileInfoPanel {
+	font-family: 'Oswald', cursive;
+}
+
+#profilePostedToonsDiv {
+	float: left;
+	margin-right: 45px;
+	margin-left: 50px;
+}
+
+
+#profileFriendsDiv {
+	float: left;
+}
+
+
+
+
+#newsFeedPanel {
+	padding: 0px;
+	padding-top: 4px;
+}
+
+#leaderBoardPanel {
+	height: 250px;
+	text-align: center;
+	font-family: 'Oswald', cursive;
+}
+
+#leaderBoardTitle {
+	line-height: 16px;
+	font-size: 14px;
+	color: gray;
+	font-weight: 700;	
+}
+
+#firstPlaceBadge {
+	background-color: #f9f216;
+	float: left;
+}
+
+#secondPlaceBadge {
+	background-color: #afafaf;
+	float: left;
+}
+
+#thirdPlaceBadge {
+	background-color: #CD7F32;
+	float: left;
+}
+
+#newsFeedProfilePic {
+	width: 50px;
+	height: 50px;
+	margin-left: 7px;
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: #337ab7;*/
+}
+
+#newsFeedProfileName {
+	font-weight: 900;
+	margin-left: 5px;
+	font-family: 'Oswald', cursive;
+	color: #283e4a;
+}
+
+#postedCartoon {
+	height: 300px;
+	width: 100%;
+	margin: auto;
+}
+
+#postedCartoonDiv {
+	margin-top: 5px;
+}
+
+#notificationPanelBody {
+	padding: 0px;
+	padding-bottom: 0px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#notificationBadge {
+	background-color: #d9534f;
+	float: right;
+}
+
+ #friendRequestBadge {
+ 	background-color: #337ab7;
+ 	float: right;
+ }
+
+ #notificationText, #friendReqText {
+ 	font-size: small;
+ }
+
+ #lineBreak {
+ 	margin-top: 15px;
+ 	margin-bottom: 0px;
+ }
+
+ #lolText, #lmaoText, #roflText {
+ 	color: #7f7f7f;
+ 	font-size: 12px;
+ 	font-weight: 800;
+ 	line-height: 14px;
+ }
+
+ #thumbsUp {
+ 	color: #7f7f7f;
+ 	font-weight: 800;
+ 	line-height: 3;
+ 	height: 20px;
+ }
+
+
+
