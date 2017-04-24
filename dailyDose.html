@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+====================================
+    MyToon      |     Daily Dose  
+====================================
+-->
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mytoon | Daily Dose</title>
+
+	<!-- Standard Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Cherry+Cream+Soda|Oswald|Ewert" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="images" href="assets/images">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/MytoonNav.css">
+    <link rel="stylesheet" href="assets/css/dailyDoseStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</head>
+
+<body>
+
+	<!-- Start of Navbar -->
+    <div>
+        <ul class="nav nav-pills navbar-fixed-top" id="navList">
+            <li role="presentation" id="homePill"><a id="homePillText" href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+            <li role="presentation" class="active" id="dailyPill"><a id="dailyPillText" href="dailyDose.html"><span class="glyphicon glyphicon-globe"></span> Daily Dose</a></li>
+            <li role="presentation" id="profilePill"><a id="profilePillText" href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+            <li role="presentation" id="createPill"><a id="createPillText" href="#"><span class="glyphicon glyphicon-pencil"></span> Create a Toon</a></li>
+        </ul>
+    </div>
+    <!-- End of Navbar -->
+ 
+
+ 	<!-- Full content container / wrapper starts here -->
+    <div class="container" id="mainContainer">
+        <div class="row">
+            <div class="col-lg-3" id="profileCol">
+                <div class="panel panel-default" id="profilePanel">
+                    <div class="panel-body"> 
+                        <div id="profilePicDiv">
+                            <img id="profileImage" src="http://i.ebayimg.com/images/g/c4oAAOxyTjNScoPu/s-l64.jpg">
+                            <div id="profileNames">
+                                <a id="profileName">Rick Fahey</a>
+                                <br>
+                                <a id="profileUsername">Ricker81</a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default" id="profileInfoPanel">
+                    <div class="panel-body">
+                        <div id="profilePostedToonsDiv">
+                            <a style="color: #283e4a;" id="profilePostedToons">Posts<br><h4 style="color: #1DA1F2;">24</h4></a>
+                        </div>
+                        <div id="profileFriendsDiv">
+                            <a style="color: #283e4a;" id="profileFriends">Friends<br><h4 style="color: #1DA1F2;">108</h4></a>
+                        </div>
+                    </div>
+                </div>    
+
+				<!-- Start of Shortcut Panel -->
+                <div class="panel panel-default" id="shortcutPanel">
+                    <div class="panel-body" id="shortcutPanelBody">
+                        <ul class="list-group">
+
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Notifications<span id="notificationBadge" class="badge">42</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Friend Requests<span id="friendRequestBadge" class="badge">3</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Message<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Groups<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Friend List<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Top Toons<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Suggested Friends<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Events<span id="eventBadge" class="badge">6</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Explore<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Notifications <!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Photos <!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>  
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div> <!-- End of Column -->
+
+
+			<div class="col-lg-6" id="mainContentColumn">
+				<div id="dailyFeedSearchDiv">
+					<input id="dailyFeedSearchBar" type="text" class="form-control" placeholder="Keywords, people, ect..">
+				</div>
+				<div id="dailyCartoonHolder">
+					<img class="img-rounded" id="cartoonOfTheDayImage" src="http://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/4/41/44155064-0767-536f-831e-0a60f8967ea4/5657c2fdef76a.image.jpg" alt="...">
+				</div>
+			</div>
+
+		</div> <!-- End of Row -->
+	</div> <!-- End of Full Content Container -->
+
+
+</body>
+</html>

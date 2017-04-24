@@ -15,9 +15,6 @@ body {
     background-repeat: repeat;
     /*font-family: 'Bangers', cursive;*/
     /*background-size: cover;*/
-
-
-
 }
 
 #welcomeNav {
@@ -43,15 +40,14 @@ body {
 	color: #c7d1d8;
 }
 
-
 #homePill, #dailyPill, #profilePill {
-	margin-right: 30px;
+	margin-right: 3px;
 	color: #c7d1d8;
 	font-family: 'Bangers', cursive;
 }
 
 #createPill {
-	margin-left: 620px;
+	margin-left: 756px;
 	font-family: 'Bangers', cursive;
 }
 
@@ -60,9 +56,8 @@ body {
 }
 
 #mainContainer {
-	width: 1638px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 1170px;
+	margin: auto;
 	padding-top: 10px;
 }
 
@@ -85,7 +80,7 @@ body {
 	line-height: 20px;
 	font-size: 18px;
 	color: black;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 #profileUsername {
@@ -124,21 +119,22 @@ body {
 	margin-left: 50px;
 }
 
-
 #profileFriendsDiv {
 	float: left;
 }
 
-
-
-
 #newsFeedPanel {
+	/*border-width: 2px;*/
+	/*border-color: #283e4a;*/
+}
+
+#newsFeedPanelBody {
 	padding: 0px;
 	padding-top: 4px;
 }
 
 #leaderBoardPanel {
-	height: 250px;
+	height: 200px;
 	text-align: center;
 	font-family: 'Oswald', cursive;
 }
@@ -147,7 +143,11 @@ body {
 	line-height: 16px;
 	font-size: 14px;
 	color: gray;
-	font-weight: 700;	
+		
+}
+
+#leaderBoardNames {
+	color: #1DA1F2;
 }
 
 #firstPlaceBadge {
@@ -175,10 +175,10 @@ body {
 }
 
 #newsFeedProfileName {
-	font-weight: 900;
+	font-weight: 600;
 	margin-left: 5px;
 	font-family: 'Oswald', cursive;
-	color: #283e4a;
+	/*color: #1DA1F2;*/
 }
 
 #postedCartoon {
@@ -189,12 +189,15 @@ body {
 
 #postedCartoonDiv {
 	margin-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #notificationPanelBody {
 	padding: 0px;
 	padding-bottom: 0px;
 	font-family: 'Oswald', sans-serif;
+	border-width: 0px;
 }
 
 #notificationBadge {
@@ -202,13 +205,13 @@ body {
 	float: right;
 }
 
- #friendRequestBadge {
+ #friendRequestBadge, #eventBadge {
  	background-color: #337ab7;
  	float: right;
  }
 
- #notificationText, #friendReqText {
- 	font-size: small;
+ #shortcutText {
+ 	color: #7f7f7f;
  }
 
  #lineBreak {
@@ -218,17 +221,61 @@ body {
 
  #lolText, #lmaoText, #roflText {
  	color: #7f7f7f;
- 	font-size: 12px;
- 	font-weight: 800;
- 	line-height: 14px;
+/* 	font-size: 18px;
+ 	font-weight: 600;*/
+ 	/*line-height: 18px;*/
+/* 	padding-top: 3px;
+ 	padding-bottom: 3px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;*/
+ 	font-family: 'Oswald', sans-serif;
  }
 
- #thumbsUp {
+/* #thumbsUp {
  	color: #7f7f7f;
  	font-weight: 800;
  	line-height: 3;
  	height: 20px;
- }
+ }*/
 
+/*#laughingEmoji {
+width: 12px;
+height: 14px;
+}*/
 
+#someAdsPanelBody {
+	padding: 0px;
+}
 
+#newsFeedPicDiv {
+
+}
+
+#timeSincePost {
+	color: #c7d1d8;
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+#notificationPanel {
+	border-width: 0px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: rgba(255,255,255,.15) !important;
+}	
+
+#leaderCol, #newsFeedCol, #profileCol {
+	margin-top: 45px;
+}
+
+.emojiHolder {
+	height: 20px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+#lolEmoji, #lmaoEmoji, #roflEmoji {
+
+}

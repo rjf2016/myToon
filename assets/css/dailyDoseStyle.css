@@ -1,0 +1,155 @@
+body {
+/*	background-color: #f5f8fa;
+	background-color: #304e67*/
+    background-attachment: fixed;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/a8/a5/71/a8a5710aa99558af4102b61b2ff088f3.jpg);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.95);
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    /*font-family: 'Bangers', cursive;*/
+    /*background-size: cover;*/
+}
+
+#welcomeNav {
+	background-color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#navList {
+	background-color: #283e4a;
+	padding-left: 380px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #c4c4c4;
+	color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#homePillText, #dailyPillText, #profilePillText, #createPillText {
+	color: #c7d1d8;
+}
+
+#homePill, #dailyPill, #profilePill {
+	margin-right: 3px;
+	color: #c7d1d8;
+	font-family: 'Bangers', cursive;
+}
+
+#createPill {
+	margin-left: 756px;
+	font-family: 'Bangers', cursive;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: rgba(255,255,255,.15) !important;
+}
+
+#mainContainer {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+
+#profilePicDiv {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profileImage {
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	margin-bottom: 3px;	
+	float: left;
+}
+
+#profileName {
+	text-align: right;
+	line-height: 20px;
+	font-size: 18px;
+	color: black;
+	font-weight: 500;
+}
+
+#profileUsername {
+	/*position: relative;*/
+	line-height: 14px;
+	font-size: 12px;
+	color: gray;
+	font-weight: 300;
+}
+
+#profileNames {
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+
+}
+
+#profilePanel {
+	margin-bottom: 0px;
+	height: 103px;
+	font-family: 'Bangers', cursive;
+	border-bottom-width: 0px;
+}
+
+#profileInfoPanel {
+	font-family: 'Oswald', cursive;
+}
+
+#profilePostedToonsDiv {
+	float: left;
+	margin-right: 45px;
+	margin-left: 50px;
+}
+
+#profileFriendsDiv {
+	float: left;
+}
+
+#shortcutPanelBody {
+	padding: 0px;
+	padding-bottom: 0px;
+	font-family: 'Oswald', sans-serif;
+	border-width: 0px;
+}
+
+#shortcutPanel {
+	border-width: 0px;
+}
+
+.badge {
+	float: right;
+}
+
+#notificationBadge {
+	background-color: #d9534f;
+}
+
+ #friendRequestBadge, #eventBadge {
+ 	background-color: #337ab7;
+ }
+
+  #shortcutText {
+ 	color: #7f7f7f;
+ }
+
+#dailyFeedSearchBar {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+ #cartoonOfTheDayImage {
+ 	width: 555px;
+ 	height: 400px;
+ }

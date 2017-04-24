@@ -9,46 +9,26 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Cherry+Cream+Soda|Oswald" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="images" href="assets/images">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/MytoonNav.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+
+
 </head>
 
 <body>
 
-<!--      <nav class="navbar navbar-default" id="welcomeNav">
-        <div class="container" id="navContainer">
-            <div class="row">
-                <div class="col-lg-1">
-                    <li id="homePill" class="active"><a id="homePillText" href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-                </div>
-                <div class="col-lg-1">    
-                    <li id="dailyPill"><a id="dailyPillText" href="#"><span class="glyphicon glyphicon-globe"></span> Daily Dose</a></li>
-                </div>
-                <div class="col-lg-1">    
-                    <li id="profilePill"><a id="profilePillText" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-                </div>
-                <div class="col-lg-4">
-                    <form class="navbar-form navbar-left">
-                        <div class="form group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </form>                    
-                </div>   
-            </div>
-        </div>
-    </nav>
- -->
-    
-
-
-
     <div>
-        <ul class="nav nav-pills" id="navList">
-                        <li id="homePill"><a id="homePillText" href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-                        <li id="dailyPill"><a id="dailyPillText" href="#"><span class="glyphicon glyphicon-globe"></span> Daily Dose</a></li>
-                        <li id="profilePill"><a id="profilePillText" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-                        <li id="createPill"><a id="createPillText" href="#"><span class="glyphicon glyphicon-pencil"></span> Create a Toon</a></li>
+        <ul class="nav nav-pills navbar-fixed-top" id="navList">
+            <li role="presentation" class="active" id="homePill"><a id="homePillText" href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+            <li role="presentation" id="dailyPill"><a id="dailyPillText" href="dailyDose.html"><span class="glyphicon glyphicon-globe"></span> Daily Dose</a></li>
+            <li role="presentation" id="profilePill"><a id="profilePillText" href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+            <li role="presentation" id="createPill"><a id="createPillText" href="#"><span class="glyphicon glyphicon-pencil"></span> Create a Toon</a></li>
         </ul>
     </div>
  
@@ -90,28 +70,17 @@
                     <div class="panel-body" id="notificationPanelBody">
                         <ul class="list-group">
 
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Notifications<span id="notificationBadge" class="badge">42</span></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="friendReqText" href="#">Friend Requests<span id="friendRequestBadge" class="badge">3</span></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Message<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="friendReqText" href="#">Groups<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Friend List<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="friendReqText" href="#">Top Toons<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Suggested Friends<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="friendReqText" href="#">Events<span id="friendRequestBadge" class="badge">3</span></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Explore<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="notificationText" href="#">Notifications <!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
-
-                          <li id="listItems" class="list-group-item" role="presentation"><a id="friendReqText" href="#">Photos <!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>  
-
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Notifications<span id="notificationBadge" class="badge">42</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Friend Requests<span id="friendRequestBadge" class="badge">3</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Message<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Groups<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Friend List<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Top Toons<!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Suggested Friends<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Events<span id="eventBadge" class="badge">6</span></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Explore<!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Notifications <!-- <span id="notificationBadge" class="badge">42</span> --></a></li>
+                            <li id="shortcutListItems" class="list-group-item" role="presentation"><a id="shortcutText" href="#">Photos <!-- <span id="friendRequestBadge" class="badge">3</span> --></a></li>  
 
                         </ul>
                     </div>
@@ -119,75 +88,126 @@
             </div>
 
             <div class="col-lg-6" id="newsFeedCol">
-                <div class="panel panel-default">  
-                    <div class="panel-body" id="newsFeedPanel">
+                <div class="panel panel-default" id="newsFeedPanel">  
+                    <div class="panel-body" id="newsFeedPanelBody">
                         <div id="newsFeedPicDiv">
                             <img id="newsFeedProfilePic" src="http://i1232.photobucket.com/albums/ff380/Ozzypig474/Mario.png">
-                            <a id="newsFeedProfileName">Mario64</a>   
+                            <a id="newsFeedProfileName">Mario64</a>
+                            <h6 id="timeSincePost">12s ago</h6>    
                         </div>
                         <div id="postedCartoonDiv">
-                            <img id="postedCartoon" src="https://s-media-cache-ak0.pinimg.com/originals/ec/c1/b3/ecc1b33c09f27eca707cf772666f04fd.jpg">  
+                            <img id="postedCartoon" src="https://cdn5.f-cdn.com/contestentries/32899/7151787/520d75a862a84_thumb900.jpg">  
                         </div>
                         <hr id="lineBreak">
                         <div  id="voteButtonsDiv">
                             <ul class="nav nav-pills" role="tablist">
-                                <li role="presentation"><a id="lolText" href="#">LOL<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
-                                <li role="presentation"><a id="lmaoText" href="#">LMAO<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
-                                <li role="presentation"><a id="roflText" href="#">ROFL<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
+
+                                <li role="presentation"><a id="lolText" href="#">LOL<img id="lolEmoji" src="http://emojipop.net/data/images/emoji_set_0.png" height="20" width="20"></a></li>
+
+                                <li role="presentation"><a id="lmaoText" href="#">LMAO<img id="lmaoEmoji" src="https://www.emojibase.com/resources/img/emojis/apple/1f602.png" height="20" width="20"></a></li>
+
+                                <li role="presentation"><a id="roflText" href="#">ROFL<img id="roflEmoji" src="https://cdn.shopify.com/s/files/1/1061/1924/files/Loudly_Crying_Face_Emoji.png?9898922749706957214" height="20" width="20"></a></li>
+
                             </ul> 
                         </div>
                     </div>
                 </div>
 
-                <div class="panel panel-default">  
-                    <div class="panel-body" id="newsFeedPanel">
+                <div class="panel panel-default" id="newsFeedPanel">  
+                    <div class="panel-body" id="newsFeedPanelBody">
                        <div id="newsFeedPicDiv">
                             <img id="newsFeedProfilePic" src="https://68.media.tumblr.com/avatar_eef73201103c_128.png">
-                            <a id="newsFeedProfileName">Spongebob01</a>   
+                            <a id="newsFeedProfileName">Spongebob01</a>
+                            <h6 id="timeSincePost">2m ago</h6>   
                         </div>
 
                         <div id="postedCartoonDiv">
-                            <img id="postedCartoon" src="https://s-media-cache-ak0.pinimg.com/originals/e9/80/49/e98049625f15bd16318a78cd26a9164b.jpg">  
+                            <img id="postedCartoon" src="http://semperfelix.com/wp-content/uploads/2013/01/ned-and-larry-comics-cartoon-funnies-funny-comic-strips-funny-cartoons-funny-comics.png">  
                         </div>
                         <hr id="lineBreak">
                         <div id="voteButtonsDiv">
                             <ul class="nav nav-pills" role="tablist">
-                                <li role="presentation"><a id="lolText" href="#">LOL<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
-                                <li role="presentation"><a id="lmaoText" href="#">LMAO<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
-                                <li role="presentation"><a id="roflText" href="#">ROFL<span id="thumbsUp" class="glyphicon glyphicon-thumbs-up"></span></a></li>
+
+                                <li role="presentation"><a id="lolText" href="#">LOL<img id="lolEmoji" src="http://emojipop.net/data/images/emoji_set_0.png" height="20" width="20"></a></li>
+
+                                <li role="presentation"><a id="lmaoText" href="#">LMAO<img id="lmaoEmoji" src="https://www.emojibase.com/resources/img/emojis/apple/1f602.png" height="20" width="20"></a></li>
+
+                                <li role="presentation"><a id="roflText" href="#">ROFL<img id="roflEmoji" src="https://cdn.shopify.com/s/files/1/1061/1924/files/Loudly_Crying_Face_Emoji.png?9898922749706957214" height="20" width="20"></a></li>
+
                             </ul>
                         </div>
                     </div>
                 </div> 
+
+
+                
+                    <div class="panel panel-default" id="newsFeedPanel">  
+                        <div class="panel-body" id="newsFeedPanelBody">
+                            <div id="newsFeedPicDiv">
+                                <img id="newsFeedProfilePic" src="http://i1232.photobucket.com/albums/ff380/Ozzypig474/Mario.png">
+                                <a id="newsFeedProfileName">Mario64</a>
+                                <h6 id="timeSincePost">12s ago</h6>    
+                            </div>
+                            <div id="postedCartoonDiv">
+                                <img id="postedCartoon" src="https://cdn5.f-cdn.com/contestentries/32899/7151787/520d75a862a84_thumb900.jpg">  
+                            </div>
+                            <hr id="lineBreak">
+                            <div  id="voteButtonsDiv">
+                                <ul class="nav nav-pills" role="tablist">
+
+                                    <li role="presentation"><a id="lolText" href="#">LOL<img id="lolEmoji" src="http://emojipop.net/data/images/emoji_set_0.png" height="20" width="20"></a></li>
+
+                                    <li role="presentation"><a id="lmaoText" href="#">LMAO<img id="lmaoEmoji" src="https://www.emojibase.com/resources/img/emojis/apple/1f602.png" height="20" width="20"></a></li>
+
+                                    <li role="presentation"><a id="roflText" href="#">ROFL<img id="roflEmoji" src="https://cdn.shopify.com/s/files/1/1061/1924/files/Loudly_Crying_Face_Emoji.png?9898922749706957214" height="20" width="20"></a></li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+
+
+
             </div>
 
             <div class="col-lg-3" id="leaderCol">
                 <div class="panel panel-default" id="leaderBoardPanel">
                     <div class="panel-body"> 
                         <a id="leaderBoardTitle">Current Top 3</a>
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <span class="badge" id="firstPlaceBadge">1</span>
-                                    <a href="#">Alec826</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="badge" id="secondPlaceBadge">2</span>
-                                    <a href="#">Joe21</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <span class="badge" id="thirdPlaceBadge">3</span>
-                                    <a href="#">Jane007</a>
-                                </li>        
-                            </ul>                        
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge" id="firstPlaceBadge">1</span>
+                                <a id="leaderBoardNames" href="#">Suzie</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge" id="secondPlaceBadge">2</span>
+                                <a id="leaderBoardNames" href="#">Alec47</a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge" id="thirdPlaceBadge">3</span>
+                                <a id="leaderBoardNames" href="#">Jane007</a>
+                            </li>        
+                        </ul>                        
                     </div>
                 </div>
+
+            <div class="panel panel-default" id="someAdsDiv">
+                <div id="someAdsPanelBody" class="panel-body">
+                    <img id="someAd" src="assets/images/someOldAd.jpg" width="260.5" height="354.87">
+                </div>
+            </div>
+
+
+
             </div>
         </div>    
     </div>
 
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <!-- <script src="assets/js/app.js"></script> -->
 
 </body>
 </html>
