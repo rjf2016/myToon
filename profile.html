@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<!--
+====================================
+    MyToon      |      Profile  
+====================================
+-->              
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytoon | Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Cherry+Cream+Soda|Oswald|Ewert" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="images" href="assets/images">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/MytoonNav.css">
+    <link rel="stylesheet" href="assets/css/profileStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <ul class="nav nav-pills navbar-fixed-top" id="navList">
+            <li role="presentation" id="homePill"><a id="homePillText" href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+            <li role="presentation" id="dailyPill"><a id="dailyPillText" href="dailyDose.html"><span class="glyphicon glyphicon-globe"></span> Daily Dose</a></li>
+            <li role="presentation" class="active" id="profilePill"><a id="profilePillText" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+            <li role="presentation" id="createPill"><a id="createPillText" href="#"><span class="glyphicon glyphicon-pencil"></span> Create a Toon</a></li>
+        </ul>
+    </div>
+ 
+    <div class="container" id="mainContainer">
+        <div class="row" id="row1">
+            <div class="col-lg-12" id="profileCol">
+                <div class="panel panel-default" id="profilePicPanel">
+                    <div class="panel-body" id="profilePicPanelBody">
+                    
+                        <div id="profilePic">
+                            <img class="img-circle" id="profileImage" src="http://www.electricferret.com/static/images/cbub/cbub_contender_image/3/2910/2910.jpg" height="200px" width="200px">
+                            <img id="profileBioBubble" src="assets/images/squareBubbleGold.png" height="100px" width="200px">
+                        </div>
+                        
+                    </div>
+                </div>    
+            </div> <!-- Closing Column / profileCol -->
+        </div> <!-- Closing Row / row1 -->
+
+        <div class="row" id="row2">
+            <div class="col-lg-3" id="profileNameCol">
+                <div class="panel panel-default" id="profileNamePanel">
+                    <div class="panel-body" id="profileNamePanelBody">
+                        
+                        <div id="profileNames">
+                             <a id="profileName">Rick Fahey</a>
+                            <br>
+                            <a id="profileUsername">Ricker81</a>
+                        </div>    
+
+                    </div>
+                </div>
+
+
+                <div class="panel panel-default" id="profileStats">
+                    <div class="panel-body" id="profileStatsPanelBody">
+                    
+
+                        <!-- Profile stats will go here -->
+    
+
+                    </div>
+                </div>
+
+            </div><!-- closes column -->
+    
+
+
+            <!-- Starting Profile Post Gallery -->
+            <div class="col-lg-9" id="profileToonsCol">
+                <div class="panel panel-default" id="profileToonsPanel">
+                    <div class="panel-body" id="profileToonsPanelBody">
+                        
+                        <!-- Starting Row 1 -->
+                        <div class="row" id="profileGalleryRow1">
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img class="testingImg" id="galleryImg1" src="http://www.christianrevolution.net/images/david1.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay"> -->
+                                       <!--  <div class="text">Testing</div> -->
+                                        <!-- <div id="testingBtnDiv"></div> -->
+                                    <!-- </div> -->    
+                                </div>    
+                            </div>
+            
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img class="testingImg" id="galleryImg2" src="https://www.toonpool.com/user/8371/files/fish_stands_his_ground_1551745.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                        <div id="testingBtnDiv"></div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img class="testingImg" id="galleryImg3" src="https://upload.wikimedia.org/wikipedia/en/6/64/Ziggy-cartoon.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <!-- Starting Row 2 -->
+                        <div class="row" id="profileGalleryrow2">
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://s-media-cache-ak0.pinimg.com/736x/82/a0/3a/82a03a671bc382447ab9f8d2094045a5.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>            
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="http://c0389161.cdn.cloudfiles.rackspacecloud.com/dyn/str_strip/349934.full.gif" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="http://unearthedcomics.com/wp-content/uploads/2013/04/Unearthed-MarilynEarth-1304-1-HappyEarthDay-web.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+                        </div>
+
+                        <!-- Starting Row 3 -->
+                        <div class="row" id="profileGalleryRow3"> 
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://thenib.imgix.net/usq/a112e956-8e2c-469b-80c0-c275eb4b5177/the-adventures-of-barron-trump-1-260.png?auto=compress,format" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd413gcLwI7R7UmhF61PDEz6oZrDaVL-glnnPW5NPFQs1nSTQcEA" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>  
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="http://c0389161.cdn.cloudfiles.rackspacecloud.com/dyn/str_strip/349934.full.gif" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+                        </div>
+
+                        <!-- Starting Row 4 -->
+                        <div class="row" id="profileGalleryRow4">    
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://s3.amazonaws.com/lowres.cartoonstock.com/travel-tourism-jetlagged-jetlag-airlines-planes-plane-kkin522_low.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div> 
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://s-media-cache-ak0.pinimg.com/736x/0d/c2/91/0dc291484a758f549ae83496f7d3bbb9.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>        
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="http://c0389161.cdn.cloudfiles.rackspacecloud.com/dyn/str_strip/349934.full.gif" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+                        </div>
+        
+                        <!-- Starting Row 5 -->
+                        <div class="row" id="profileGalleryRow5">    
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://upload.wikimedia.org/wikipedia/en/6/64/Ziggy-cartoon.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="http://www.christianrevolution.net/images/david1.jpg" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>
+
+                            <div class="col-lg-4" id="postedCartoonSlots">
+                                <div class="imageHolder">
+                                    <img id="testingImg" src="https://thenib.imgix.net/usq/a112e956-8e2c-469b-80c0-c275eb4b5177/the-adventures-of-barron-trump-1-260.png?auto=compress,format" height="265px" width="265px">
+                                    <!-- <div id="overlay">
+                                        <div class="text">Testing</div>
+                                    </div> -->
+                                </div>        
+                            </div>    
+                        </div>
+        
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Modal title</h4>
+
+                        </div>
+                        <!-- Top of modal body-->
+                        <div class="modal-body">
+                            <div class="modalImageHolder"></div> <!--Where the main post image will be displayed-->
+                            <hr id="hrBetweenPostAndActionButtons">
+                            
+                            <div class="postActionHolderDiv">    
+                              
+
+                                    <div class="btn-group btn-group-sm" id="lolLmaoRoflButtonGroup" role="group" aria-label="...">
+                                        <button type="button" id="lolGalleryActionButton" class="btn btn-default">Lol</button>
+                                        <button type="button" id="lmaoGalleryActionButton" class="btn btn-default">Lmao</button>
+                                        <button type="button" id="roflGalleryActionButton" class="btn btn-default">Rofl</button>
+                                    </div>
+                                    <a class="btn btn-default btn-sm" id="shareButton" href="#" role="button">Share</a>
+
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">  
+                        
+                            <!-- Footer content starts here -->
+
+                            <div class="allPostPastComments">
+                                <div class="postCommentDiv">
+                                    <img class="commentProfilePicImage" src="https://68.media.tumblr.com/avatar_eef73201103c_128.png" height="32px" width="32px">
+                                    <div class="panel panel-default" id="postCommentPanel">
+                                        <div class="panel-body clearfix" id="postCommentPanelBody">
+                                            Hey all, great cartoon, it was reeal funny.
+                                        </div>
+                                    </div>
+                                </div>
+
+            
+                                <div class="postCommentDiv">
+                                    <img class="commentProfilePicImage" src="http://i1232.photobucket.com/albums/ff380/Ozzypig474/Mario.png" height="32px" width="32px">
+                                    <div class="panel panel-default" id="postCommentPanel">
+                                        <div class="panel-body clearfix" id="postCommentPanelBody">
+                                            Im with SpongeBob, great joke.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr id="lineBreakWhereUserCommentStarts">
+                            
+                                
+                                    <div class="userCommentAreaDiv">
+                                        <img class="commentProfilePicImage" src="http://vignette1.wikia.nocookie.net/vsbattles/images/c/cf/Patrick.png/revision/latest?cb=20150919161522" height="32px" width="32px">
+                                        <span>
+                                            
+                                            <input id="currentUserCommentArea" type="text" class="form-control" placeholder="Write a comment..">
+                                            
+                                        </span>        
+                                    </div>    
+
+
+                               
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+
+        </div>        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="assets/js/app.js"></script> -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    
+
+</body>
+</html>
